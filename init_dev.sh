@@ -3,6 +3,17 @@
 # Script cài đặt môi trường phát triển cho Ubuntu 22.04 LTS trở lên (22.04, 24.04+)
 # Sử dụng pyenv để quản lý các phiên bản Python
 # ==============================================================================
+# HƯỚNG DẪN CHẠY:
+#   Bước 1: Cấp quyền thực thi cho script:
+#           chmod +x init_dev.sh
+#   Bước 2: Chạy script kèm phiên bản Python cần cài đặt (bắt buộc):
+#           ./init_dev.sh <python_version>
+#           Ví dụ:
+#           ./init_dev.sh 3.10.13
+#           ./init_dev.sh 3.11.8
+#   Bước 3: Sau khi cài đặt xong, nạp lại cấu hình shell:
+#           source ~/.bashrc
+# ==============================================================================
 
 set -e # Dừng ngay khi có lệnh gặp lỗi
 
